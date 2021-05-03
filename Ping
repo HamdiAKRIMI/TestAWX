@@ -1,0 +1,8 @@
+---
+- name: Test Host
+  hosts: 54.237.63.65
+  tasks:
+
+    - name: here we are checking the ping-pong
+      ping:
+      become: true
